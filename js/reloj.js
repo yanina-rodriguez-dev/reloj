@@ -41,13 +41,8 @@ function cambiarEstilo(color){
  section.className = 'fs-1' + color
 }
 
-let btnAzul =document.getElementById('btnAzul'),
-btnGris = document.getElementById('btnGris'),
-btnRojo = document.getElementById('btnRojo');
 
-btnAzul.addEventListener('click', ()=> cambiarEstilo('text-Azul'));
-btnGrisaddEventListener('click', ()=> cambiarEstilo('text-Azul'));
-btnRojoaddEventListener('click', ()=> cambiarEstilo('text-Azul'));
+
 
 //para obtenerlo cada 1000 milisegundos actualizado y funcione el reloj
 setInterval(obtenerFechaHora,1000);
